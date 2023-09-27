@@ -1,0 +1,35 @@
+p, h1, h2 {
+    font-family: 'Itim', cursive;
+}
+h2, h3, h5, p.name2 {
+    font-family: 'Itim', cursive;
+    color: #9a5ae8;
+}
+p.name {
+    color: #fff;
+    background-color: #0029ff;
+    padding: 30px;
+    font-size: 60px;
+    margin: 0px;
+}
+@media screen and (max-width:699px) {
+    h2, h3, h5, p.name2 {
+        color: #0029ff;
+    }
+    p.name {
+        background-color: #008000;
+        font-size: 16px;
+    }
+    p, h2, h3, h5 {
+        font-family: 'Kanit', sans-serif;
+    }
+}
+@media screen and (min-width:780px) and (max-width:999px) {
+    h2, h3, h5, p.name2 {
+        color: #db5f11;
+    }
+    p.name {
+        background-color: #ea00ff;
+        font-size: 16px;
+    }
+}
